@@ -1,0 +1,71 @@
+* {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        text-align: center;
+      }
+      ul {
+        list-style: none;
+      }
+      h1,
+      h2,
+      h3,
+      h4 {
+        margin: 10px 0;
+      }
+      h1 {
+        color: chocolate;
+      }
+      h2 {
+        font-size: 30px;
+      }
+      h4 {
+        color: black;
+      }
+      #list_id {
+        margin-bottom: 50px;
+      }
+      #home_work {
+        background-color: #858181;
+        margin: 0 auto;
+        text-align: center;
+        width: 50%;
+        border-radius: 30px;
+        padding: 50px 30px;
+      }
+      #headingStyle {
+        background-color: crimson;
+        padding: 10px;
+        font-size: 40px;
+        color: #ffffff;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+      }
+      .paraStyle {
+        background-color: green;
+        padding: 10px;
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: 500;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+      }
+      #list_order li {
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: #ffffff;
+        padding: 5px 0;
+        border-radius: 10px;
+        margin-top: 5px;
+      }
+      #list_order li:nth-child(2n) {
+        background-color: blue;
+      }
+      #list_order li:nth-child(2n-1) {
+        background-color: purple;
+      }
